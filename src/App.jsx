@@ -50,21 +50,23 @@ class App extends React.Component {
       <div className="App">
         <h1>One Hour Todo</h1>
 
-        <h2>Add Todo Item</h2>
+        <h4>Add Todo Item</h4>
         <form onSubmit={this.addItem}>
           <input type="text" ref={this.itemRef} />
           <input type="submit" />
         </form>
 
-        {Object.keys(this.state.items).map(key => (
-          <Item
-            complete={this.state.items[key].complete}
-            key={key}
-            index={key}
-            item={this.state.items[key].item}
-            updateItem={this.updateItem}
-          />
-        ))}
+        <ol>
+          {Object.keys(this.state.items).map(key => (
+            <Item
+              complete={this.state.items[key].complete}
+              key={key}
+              index={key}
+              item={this.state.items[key].item}
+              updateItem={this.updateItem}
+            />
+          ))}
+        </ol>
       </div>
     );
   }
