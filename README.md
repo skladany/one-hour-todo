@@ -1,6 +1,8 @@
 # **Extremely** simple Todo list coded up in one hour
 
-[http://ecstatic-jang-ed1b06.netlify.com/](http://ecstatic-jang-ed1b06.netlify.com/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ca66aaf-f451-4dd6-bfa3-037f45c34686/deploy-status)](https://app.netlify.com/sites/vigilant-kowalevski-389d69/deploys)
+
+[https://vigilant-kowalevski-389d69.netlify.com/](https://vigilant-kowalevski-389d69.netlify.com/)
 
 ## Super Simple Specs
 
