@@ -4,6 +4,10 @@
 
 [https://vigilant-kowalevski-389d69.netlify.com/](https://vigilant-kowalevski-389d69.netlify.com/)
 
+## Hooks
+
+- Updated to use hooks instead (also in about an hour)
+
 ## Super Simple Specs
 
 - Form box to add items
