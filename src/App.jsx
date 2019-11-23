@@ -24,20 +24,14 @@ const App = () => {
   };
 
   const updateItem = index => {
-    console.log(index);
-
     // flip the status
     items[index].complete = !items[index].complete;
-
-    console.log(items);
 
     // Update state
     // addItem(items); doesn't work b/c React won't re-render.
     // Use the spread operator forces React to see the updated state
     addItem([...items]);
   };
-
-  console.log(items);
 
   return (
     <div className="App">
